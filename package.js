@@ -9,7 +9,7 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('1.1.0.2');
   api.use('backbone@0.9.2', 'client');
-  api.use('stevezhu:lodash', 'client');
+  api.use('stevezhu:lodash@1.0.2', 'client');
   api.addFiles(['jointjs.js', 'jointjs.css', 'geometry.js'], 'client');
 
   api.export('g', 'client');
